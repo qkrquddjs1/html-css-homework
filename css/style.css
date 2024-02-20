@@ -1,0 +1,59 @@
+@charset "UTF-8";
+
+#head {
+    display: flex;
+}
+
+
+body {
+    /* 바탕  Rectangle 1 */
+
+
+    background: #F4F4F4;
+
+
+}
+.page-header {
+    /* BYEONGEON Portfolio */
+
+
+    color: #2939A7;
+}
+.page0 {
+    /* “ */
+
+
+    color: #C1C1C1;
+
+}
+nav {
+    text-align: right;
+    background: #C1C1C1;
+
+}
+
+
+.page1 {
+    /* 안녕하세요. 신입 개발자 박병언입니다. */
+
+
+
+    color: #2939A7;
+}
+.page2{
+    /* 0000000000000이 강점입니다. 백엔드 기술에 관심이 있으며 00000000 하는 것을 좋아합니다. 현재 신입 백엔드 개발자로 구직중입니다. */
+
+
+
+    color: #C1C1C1;
+
+}
+
+.wrapper{
+    background-color: #2939A7;
+    color: #C1C1C1;
+    display: flex;
+    justify-content: space-between;
+}
+
+
