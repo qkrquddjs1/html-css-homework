@@ -1,59 +1,57 @@
 @charset "UTF-8";
-
-#head {
+body {
+    background: #F4F4F4;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    margin: 0;
+}
+#home {
     display: flex;
 }
 
 
-body {
-    /* 바탕  Rectangle 1 */
-
-
-    background: #F4F4F4;
-
+.content-wrapper {
+    /* 가운데랑 오른쪽 사이드바 묶음 */
+    display: flex;
+    flex: 1;
+}
+.home-content {
+    /* 소개글 */
+    margin-left: 191px;
+    margin-top: 150px;
 
 }
-.page-header {
-    /* BYEONGEON Portfolio */
 
 
-    color: #2939A7;
-}
-.page0 {
-    /* “ */
-
-
-    color: #C1C1C1;
-
-}
-nav {
-    text-align: right;
+aside{
+    /* 사이드 바 */
+    margin-left: auto;
+    margin-right: 0;
     background: #C1C1C1;
-
+    padding: 10px;
+    box-sizing: border-box;
+}
+h3, p, a, ul {
+    margin: 40px 0;
 }
 
 
-.page1 {
-    /* 안녕하세요. 신입 개발자 박병언입니다. */
-
-
-
-    color: #2939A7;
-}
-.page2{
-    /* 0000000000000이 강점입니다. 백엔드 기술에 관심이 있으며 00000000 하는 것을 좋아합니다. 현재 신입 백엔드 개발자로 구직중입니다. */
-
-
-
-    color: #C1C1C1;
+footer{
+    padding: 26px 0;
+    margin-top: auto;
 
 }
-
 .wrapper{
+    /* 맨밑줄 */
     background-color: #2939A7;
     color: #C1C1C1;
     display: flex;
     justify-content: space-between;
+    max-width: 11000px;
+    margin-top: 0;
+    padding: 0 4%;
 }
+
 
 
