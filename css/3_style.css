@@ -1,0 +1,117 @@
+.bg {
+    margin-top: 60px;
+    margin-left: 50px;
+    margin-bottom: 140px;
+}
+
+.custom-box {
+    width: 1090px;
+    height: 920px;
+    background-color: #F4F4F4; /* 원하는 배경색으로 설정 */
+    margin: 35px; /* 원하는 여백 설정 */
+    position: fixed;
+    z-index: -1;
+    top: 120px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+
+
+}
+.sub-PRO {
+    color: #2939A7;
+    font-weight: bolder;
+    font-size: 38px;
+}
+.sub-pro {
+    font-size: 26px;
+    color: #848484;
+}
+.or {
+    font-size: 22px;
+    color: #848484;
+}
+
+
+.projects {
+    width: 546px;
+    margin-left: 60px;
+    margin-right: 20px;
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 40px;
+    box-sizing: border-box;
+
+
+
+
+}
+
+.sub-box {
+    background-color: #d9d9d9;
+    width: 546px;
+    height: 267px;
+    top: 519px;
+    margin-left: 25px;
+    margin-top: 40px;
+    margin-right: 40px;
+
+    box-sizing: border-box;
+
+}
+.sub-BOX {
+    margin-top: 50px;
+    background-color: #d9d9d9;
+    width: 380px;
+    height: 300px;
+    float: left;
+
+}
+.one {
+    font-size: 24px;
+    font-weight: bolder;
+    color: #2939A7;
+    margin-top: 50px;
+    margin-left: 400px;
+    width: 200px;
+}
+.two {
+    font-size: 22px;
+    color: #848484;
+    margin-top: 30px;
+    margin-left: 400px;
+    width: 200px;
+}
+
+.after::after {
+
+        content: "";
+        display: block;
+        width: 210%;
+        height: 1px;
+        background-color: #848484; /* 원하는 색상으로 설정 */
+        margin-top: 120px; /* 원하는 여백 설정 */
+    }
+
+
+aside {
+    /* 사이드 바 */
+    position: fixed;
+    overflow-y: auto;
+    z-index: 1;
+    text-align: center;
+    top: 0;
+    right: 0;
+    width: 25%; /* 현재는 30%로 설정되어 있음 */
+    height: 100%; /* 화면의 높이에 맞춤 */
+    padding: 10px;
+    box-sizing: border-box;
+    line-height: 3;
+    font-weight: bold;
+    font-size: 28px;
+}
+
+.a {
+    margin-top: 278px;
+    color: #c1c1c1;
+}

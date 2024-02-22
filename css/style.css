@@ -1,4 +1,5 @@
 @charset "UTF-8";
+
 body {
     background: #F4F4F4;
     display: flex;
@@ -6,52 +7,95 @@ body {
     min-height: 100vh;
     margin: 0;
 }
+.bg {
+    margin-top: 60px;
+    margin-left: 50px;
+}
+
+main {
+    padding: 10px;
+}
+
 #home {
     display: flex;
 }
 
+header {
+    position: relative;
+    z-index: 2;
+}
 
 .content-wrapper {
     /* 가운데랑 오른쪽 사이드바 묶음 */
     display: flex;
     flex: 1;
+    position: relative;
 }
+
 .home-content {
     /* 소개글 */
     margin-left: 191px;
     margin-top: 150px;
-
 }
 
-
-aside{
+aside {
     /* 사이드 바 */
-    margin-left: auto;
-    margin-right: 0;
+    position: fixed;
+    overflow-y: auto;
+    z-index: 1;
+    text-align: center;
+    top: 0;
+    right: 0;
+    width: 30%; /* 현재는 30%로 설정되어 있음 */
+    height: 100%; /* 화면의 높이에 맞춤 */
     background: #C1C1C1;
     padding: 10px;
     box-sizing: border-box;
-}
-h3, p, a, ul {
-    margin: 40px 0;
-}
-
-
-footer{
-    padding: 26px 0;
-    margin-top: auto;
 
 }
-.wrapper{
+
+.wrapper {
     /* 맨밑줄 */
+    position: relative;
+    z-index: 1;
     background-color: #2939A7;
     color: #C1C1C1;
     display: flex;
+    flex-direction: row;
     justify-content: space-between;
-    max-width: 11000px;
-    margin-top: 0;
-    padding: 0 4%;
+    max-width: 90%; /* 예시로 90%로 설정 */
+    margin: 0 auto;
+    padding: 64px 4%;
+    flex: 1;
+    text-align: left;
+}
+footer {
+    padding: 0;
+    text-align: left;
+    height: 10%; /* 예시로 10%로 설정, 화면의 10% 높이를 가지게 됩니다 */
 }
 
+@media (max-width: 768px) {
+    aside {
+        width: 100%;
+        height: auto;
+    }
+    .wrapper {
+        max-width: 100%;
+    }
+}
+.a {
+    margin: 175px 0;
+}
+
+aside .a .b {
+    width: 222px; /* 박스의 가로 크기 */
+    height: 272px;
+    border: 2px solid #C1C1C1; /* 테두리 설정 */
+    padding: 10px; /* 안쪽 여백 설정 */
+    background-color: #F4F4F4; /* 배경색 설정 */
+    border-radius: 8px; /* 테두리의 꼭지점을 둥글게 만듭니다. */
+    display: inline-block; /* 인라인 요소로 설정하여 컨텐츠에 맞게 크기 조절 */
+}
 
 
