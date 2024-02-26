@@ -3,6 +3,12 @@
     margin-left: 50px;
     margin-bottom: 140px;
 }
+
+.header a {
+    text-decoration: none;
+    color: #2939A7;
+}
+
 body {
     background: white;
 }
@@ -36,7 +42,25 @@ aside {
     line-height: 3;
     font-weight: bold;
     font-size: 28px;
+    color: #C1C1C1;
 }
+
+
+
+aside a {
+    text-decoration: none;
+    color: #C1C1C1;
+
+}
+
+aside a:hover {
+    color: #2939A7;
+}
+
+aside li {
+    list-style-type: none;
+}
+
 .a {
     margin-top: 278px;
     color: #c1c1c1;
@@ -73,4 +97,11 @@ aside {
     position: fixed;
     z-index: -1;
     top: 120px;
+}
+
+.skills-link {
+    /* 여기에 SKILLS 링크에 대한 특별한 스타일 작성 */
+    color: #2939A7;
+    font-weight: bold;
+    /* 추가적인 스타일을 원하는 대로 작성 */
 }

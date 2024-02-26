@@ -4,6 +4,11 @@
     margin-bottom: 140px;
 }
 
+.header a {
+    text-decoration: none;
+    color: #2939A7;
+}
+
 .custom-box {
     width: 1090px;
     height: 920px;
@@ -87,7 +92,7 @@
 
         content: "";
         display: block;
-        width: 210%;
+        width: 180%;
         height: 1px;
         background-color: #848484; /* 원하는 색상으로 설정 */
         margin-top: 120px; /* 원하는 여백 설정 */
@@ -111,7 +116,24 @@ aside {
     font-size: 28px;
 }
 
+aside a {
+    text-decoration: none;
+    color: #c1c1c1;
+}
+
+aside li {
+    list-style-type: none;
+}
+
+
+
 .a {
     margin-top: 278px;
     color: #c1c1c1;
 }
+
+
+.projects1-link {
+    color: #2939A7;
+}
+

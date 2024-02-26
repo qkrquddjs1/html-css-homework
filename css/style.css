@@ -25,6 +25,11 @@ header {
     z-index: 2;
 }
 
+.header a {
+    text-decoration: none;
+    color: #2939A7;
+}
+
 .content-wrapper {
     /* 가운데랑 오른쪽 사이드바 묶음 */
     display: flex;
@@ -43,15 +48,43 @@ aside {
     position: fixed;
     overflow-y: auto;
     z-index: 1;
-    text-align: center;
-    top: 0;
+
+    top: 50%;
     right: 0;
-    width: 30%; /* 현재는 30%로 설정되어 있음 */
-    height: 100%; /* 화면의 높이에 맞춤 */
+    width: 25%;
+    height: 100%;
     background: #C1C1C1;
     padding: 10px;
     box-sizing: border-box;
+    transform: translate(0%, -50%);
+    text-align: center;
+    font-weight: bold;
+    color: #ffffff;
+    font-size: 20px;
 
+}
+.b {
+    color: black;
+    text-align: center;
+    font-size: 20px;
+
+}
+
+aside a {
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 20px;
+}
+
+.side {
+    margin-top: -35%;
+}
+
+
+
+
+aside li {
+    list-style-type: none;
 }
 
 .wrapper {
@@ -59,15 +92,18 @@ aside {
     position: relative;
     z-index: 1;
     background-color: #2939A7;
-    color: #C1C1C1;
+    color: white;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     max-width: 90%; /* 예시로 90%로 설정 */
     margin: 0 auto;
-    padding: 64px 4%;
+    padding: 20px 10%;
     flex: 1;
     text-align: left;
+    font-weight: bold;
+
+
 }
 footer {
     padding: 0;
@@ -86,6 +122,7 @@ footer {
 }
 .a {
     margin: 175px 0;
+
 }
 
 aside .a .b {
@@ -96,6 +133,11 @@ aside .a .b {
     background-color: #F4F4F4; /* 배경색 설정 */
     border-radius: 8px; /* 테두리의 꼭지점을 둥글게 만듭니다. */
     display: inline-block; /* 인라인 요소로 설정하여 컨텐츠에 맞게 크기 조절 */
+    font-weight: bold;
 }
+
+
+
+
 
 
